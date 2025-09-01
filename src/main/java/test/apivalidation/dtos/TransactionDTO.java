@@ -75,7 +75,7 @@ public class TransactionDTO {
     @Pattern(regexp = "PENDING|COMPLETED|FAILED|CANCELLED", message = "{status.invalid}")
     private String status;
 
-    private Boolean recurring; // optional, defaults to false
+    private Boolean recurring;
 
 
     @Size(max = 255, message = "{notes.size}")

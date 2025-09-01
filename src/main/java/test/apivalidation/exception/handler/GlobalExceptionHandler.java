@@ -29,7 +29,7 @@ public class GlobalExceptionHandler {
 
         Map<String, String> errors = new HashMap<>();
 
-        Locale locale = request.getLocale(); // picks Accept-Language
+        Locale locale = request.getLocale();
 
         ex.getBindingResult().getAllErrors().forEach(error -> {
             String fieldName = ((FieldError) error).getField();
