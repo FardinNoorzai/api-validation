@@ -1,0 +1,11 @@
+spring:
+  messages:
+    basename: messages,ValidationMessages
+    encoding: UTF-8
+
+server:
+  servlet:
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
